@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Data from '../Data.json';
+import Project from './Project';
 
 export default class ProjectContainer extends Component {
 
@@ -11,19 +12,9 @@ export default class ProjectContainer extends Component {
         console.log(data.projects)
         return (
             <div>
-                {data.projects.map( ( project,index ) => (
-                    <div key={index}>
-                        <p>{project.project_name}</p>
-                        <p>{project.description}</p>
-                        <p>{project.github_link}</p>
-                        <p>{project.live_link}</p>
-                        <ul>
-                            {project.image_urls.map( ( img, index ) => (
-                                <li key={index}>{img}</li>
-                            ))}
-                        </ul>
-                    </div>
-                ))}
+                { data.projects.map( ( project, index ) => 
+                    <Project project={project} key={index} />
+                ) }
             </div>
         )
     }

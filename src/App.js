@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
 import ProjectContainer from './components/ProjectContainer';
-import Project from './components/Project';
 import Header from './components/Header';
 
 
@@ -13,9 +12,10 @@ function App() {
       <div className="App">
 
         <Header />
-        <ProjectContainer />
+        
         <Switch>
-          <Route></Route>
+          <Route exact path='/' render={ () => <Redirect to='/portfolio' /> } />
+          <Route exact path='/portfolio' render={ ()=> <ProjectContainer /> } />
         </Switch>
 
       </div>
