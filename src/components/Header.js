@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../img/aaa.jpg';
+import logo from '../aaa.jpg';
 
 const Header = ({toggle}) => {
     
@@ -12,7 +12,7 @@ const Header = ({toggle}) => {
                     <div className='grid-y grid-padding-x' style={{ height:'100%' }}>
                         <br />
                         <div className='cell shrink'>
-                            <img className='thumbnail' src={ logo }></img>
+                            <img className='thumbnail' src={ logo } alt='' />
                         </div>
                         <div className='cell auto'>
                             <h5>Steve Park</h5>

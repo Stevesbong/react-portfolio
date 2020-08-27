@@ -7,7 +7,7 @@
             "technologies": [ "CSS", "JavaScript", "JSX", "React", "Context API", "SQLite" ],
             "live_link": "https://react-school-database.herokuapp.com/",
             "github_link": "https://github.com/Stevesbong/React-School-Database",
-            "image_thumbnail_urls": "../static/img/portfolio-thumbnail.png",
+            "image_thumbnail_urls": "img/react-school-database_thumbnail.png",
             "image_urls": ["../static/img/portfolio1.png", "../static/img/portfolio2.png", "../static/img/portfolio3.png", "../static/img/portfolio4.png", "../static/img/portfolio5.png"]
         },
         {
@@ -17,7 +17,7 @@
             "technologies": [ "CSS", "JavaScript", "JSX", "React", "React Hooks" ],
             "live_link": "https://stevesbong.github.io/react-breakingbad-api",
             "github_link": "https://github.com/Stevesbong/react-breakingbad-api",
-            "image_thumbnail_urls": "../static/img/portfolio-thumbnail.png",
+            "image_thumbnail_urls": "img/breakingbad_thumbnail.png",
             "image_urls": ["../static/img/portfolio1.png", "../static/img/portfolio2.png", "../static/img/portfolio3.png", "../static/img/portfolio4.png", "../static/img/portfolio5.png"]
         },
         {
@@ -27,7 +27,7 @@
             "technologies": [ "HTML", "CSS", "JavaScript", "Bootstrap", "Angular", "Python", "Django" ],
             "live_link": "https://youtu.be/ZkjzNqSG-t0",
             "github_link": "https://github.com/Stevesbong/Angular-Django-Project",
-            "image_thumbnail_urls": "../static/img/E-commerce-thumbnail.png",
+            "image_thumbnail_urls": "img/E-commerce-thumbnail.png",
             "image_urls": ["../static/img/E-commerce1.png", "../static/img/E-commerce2.png", "../static/img/E-commerce3.png", "../static/img/E-commerce4.png", "../static/img/E-commerce5.png"]
         },
         {
@@ -37,7 +37,7 @@
             "technologies": [ "HTML", "CSS", "Bootstrap", "Python", "Django" ],
             "live_link": "https://youtu.be/GsZIyx6hrno",
             "github_link": "https://github.com/Stevesbong/Amare-Project",
-            "image_thumbnail_urls": "../static/img/E-commerce-thumbnail.png",
+            "image_thumbnail_urls": "img/Amare_thumbnail.png",
             "image_urls": ["../static/img/E-commerce1.png", "../static/img/E-commerce2.png", "../static/img/E-commerce3.png", "../static/img/E-commerce4.png", "../static/img/E-commerce5.png"]
         },
         {
@@ -47,7 +47,7 @@
             "technologies": [ "HTML", "CSS", "JavaScript" ],
             "live_link": "https://stevesbong.github.io/OOP-Phrase-game/",
             "github_link": "https://github.com/Stevesbong/OOP-Phrase-game",
-            "image_thumbnail_urls": "../static/img/OOP-Phrase-game-thumbnail.png",
+            "image_thumbnail_urls": "img/wheelofsuccess_thumbnail.png",
             "image_urls": ["../static/img/OOP-Phrase-game1.png", "../static/img/OOP-Phrase-game2.png", "../static/img/OOP-Phrase-game3.png"]
         },
         {
@@ -57,7 +57,7 @@
             "technologies": [ "HTML", "CSS", "JavaScript" ],
             "live_link": "https://stevesbong.github.io/Random-Quote-Generator/",
             "github_link": "https://github.com/Stevesbong/Random-Quote-Generator",
-            "image_thumbnail_urls": "../static/img/randomQuoteGenerator-thumbnail.png",
+            "image_thumbnail_urls": "img/randomQuoteGenerator-thumbnail.png",
             "image_urls": ["../static/img/randomQuoteGenerator1.png", "../static/img/randomQuoteGenerator2.png", "../static/img/randomQuoteGenerator3.png", "../static/img/randomQuoteGenerator4.png"]
         },
         {
@@ -67,7 +67,7 @@
             "technologies": [ "HTML", "CSS", "Sass", "JavaScript", "Chart.js" ],
             "live_link": "https://stevesbong.github.io/EmployeeDashboard/",
             "github_link": "https://github.com/Stevesbong/EmployeeDashboard/",
-            "image_thumbnail_urls": "../static/img/EmployeeDashboard-thumbnail.png",
+            "image_thumbnail_urls": "img/EmployeeDashboard-thumbnail.png",
             "image_urls": ["../static/img/EmployeeDashboard1.png", "../static/img/EmployeeDashboard2.png", "../static/img/EmployeeDashboard3.png", "../static/img/EmployeeDashboard4.png"]
         },
         {
@@ -77,7 +77,7 @@
             "technologies": [ "HTML", "CSS", "JavaScript" ],
             "live_link": "https://stevesbong.github.io/List-Employee-Pagination-and-Filtering",
             "github_link": "https://github.com/Stevesbong/List-Employee-Pagination-and-Filtering",
-            "image_thumbnail_urls": "../static/img/randomQuoteGenerator-thumbnail.png",
+            "image_thumbnail_urls": "img/list-pagination_thumbnail.png",
             "image_urls": ["../static/img/randomQuoteGenerator1.png", "../static/img/randomQuoteGenerator2.png", "../static/img/randomQuoteGenerator3.png", "../static/img/randomQuoteGenerator4.png"]
         },
         {
@@ -87,7 +87,7 @@
             "technologies": [ "HTML", "CSS", "Sass", "JavaScript", "JQuery(lightbox)" ],
             "live_link": "https://github.com/Stevesbong/photoGalleryProject",
             "github_link": "https://stevesbong.github.io/photoGalleryProject",
-            "image_thumbnail_urls": "../static/img/randomQuoteGenerator-thumbnail.png",
+            "image_thumbnail_urls": "img/photogallery_thumbnail.png",
             "image_urls": ["../static/img/randomQuoteGenerator1.png", "../static/img/randomQuoteGenerator2.png", "../static/img/randomQuoteGenerator3.png", "../static/img/randomQuoteGenerator4.png"]
         }
     ]
