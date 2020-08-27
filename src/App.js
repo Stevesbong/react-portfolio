@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
 import ProjectContainer from './components/ProjectContainer';
 import Header from './components/Header';
 import About from './components/About';
+import ProjectDetail from './components/ProjectDetail';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route exact path='/' render={ () => <Redirect to='/portfolio' /> } />
           <Route exact path='/portfolio' render={ ()=> <ProjectContainer left= {toggle} toggle={ ( toggle ) => setToggle( toggle ) } /> } />
           <Route exact path='/about' component={About} />
+          <Route exact path='/project/:id' component={ProjectDetail} />
         </Switch>
 
       </div>
