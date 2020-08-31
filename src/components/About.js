@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { AwesomeButtonSocial } from "react-awesome-button";
 
 const About = () => {
     return (
@@ -44,14 +45,27 @@ const About = () => {
                             <li>818-669-2730</li>
                             <li>stevepbong@gmail.com</li>
                         </ul>
-                        <a className='button expanded' href='https://www.linkedin.com/in/stevespark' target='blank'>LinkedIn</a>
-                        <a className='button expanded' href='https://github.com/Stevesbong' target='blank'>Github</a>
+                        <AwesomeButtonSocial
+                            type="linkedin"
+                            size="large"
+                            href="https://www.linkedin.com/in/stevespark"
+                            target="_blank"
+                            style={{width:"100%", marginBottom:"5px"}}
+                            >
+                            LinkedIn
+                        </AwesomeButtonSocial>
+                        <AwesomeButtonSocial
+                            type="github"
+                            size="large"
+                            href="https://github.com/Stevesbong"
+                            target="_blank"
+                            style={{width:"100%", marginBottom:"5px"}}
+                            >
+                            Github
+                        </AwesomeButtonSocial>
                     </div>
                 </div>
             </article>
-            <nav className='grid-container portfolio-breadcrumb'>
-                <Link to='/'> ← Back</Link>
-            </nav>
         </div>
     )
 }
