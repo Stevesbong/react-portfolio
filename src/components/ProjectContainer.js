@@ -48,7 +48,7 @@ export default class ProjectContainer extends Component {
                 <article className='grid-container portfolio-intro'>
                     <div>
                         <h1 className='index-heading'>Hello, Welcome to my portfolio!</h1>
-                        <p className='leading text-light'>
+                        <p className='lead text-light'>
                             This is my personal projects showcase. 
                             I am seeking to use my skills to create and build up products that will impact the world. I am interested in both front-end and back-end development. 
                             I am a naturally creative problem-solver that will work to figure out a solution.

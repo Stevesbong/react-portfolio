@@ -8,7 +8,7 @@
             "live_link": "https://react-school-database.herokuapp.com/",
             "github_link": "https://github.com/Stevesbong/React-School-Database",
             "image_thumbnail_urls": "img/react-school-database_thumbnail.png",
-            "image_urls": ["../static/img/portfolio1.png", "../static/img/portfolio2.png", "../static/img/portfolio3.png", "../static/img/portfolio4.png", "../static/img/portfolio5.png"]
+            "image_urls": ["img/portfolio1.png", "img/portfolio2.png", "img/portfolio3.png", "img/portfolio4.png", "img/portfolio5.png"]
         },
         {
             "id": 2,
@@ -28,7 +28,7 @@
             "live_link": "https://youtu.be/ZkjzNqSG-t0",
             "github_link": "https://github.com/Stevesbong/Angular-Django-Project",
             "image_thumbnail_urls": "img/E-commerce-thumbnail.png",
-            "image_urls": ["../static/img/E-commerce1.png", "../static/img/E-commerce2.png", "../static/img/E-commerce3.png", "../static/img/E-commerce4.png", "../static/img/E-commerce5.png"]
+            "image_urls": ["../img/E-commerce1.png", "../img/E-commerce2.png", "../img/E-commerce3.png", "../img/E-commerce4.png", "../img/E-commerce5.png"]
         },
         {
             "id": 4,

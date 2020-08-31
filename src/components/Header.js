@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../aaa.jpg';
+import logo from '../profile.jpg';
 
 const Header = ({toggle}) => {
     

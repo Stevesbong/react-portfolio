@@ -6,17 +6,8 @@ export default class ProjectDetail extends Component {
 
     state = {
         projects: Data,
-        project: []
     }
-    // componentDidMount() {
-        
-    //     this.addToState(project)
-    //     console.log(project[0])
-    //     console.log(this.state.project)
-    // }
-    // addToState(project) {
-    //     this.setState({project:project})
-    // }
+
     render() {
         const { id } = this.props.match.params;
         const { projects } = this.state;
@@ -49,7 +40,7 @@ export default class ProjectDetail extends Component {
                         </div>
                     </div>
                     { project.image_urls.map( ( img, index ) => (
-                        <img className='image' key={index} src={img} style={{width: "1200px", height: "550px"}} alt={project.project_name} />
+                        <img className='image' key={ index } src={ img } style={ { width: "1200px", height: "550px" } } alt={ project.project_name } />
                     ))}
                 </article>
             </div>
