@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { AwesomeButtonSocial } from "react-awesome-button";
+import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
 
 const About = () => {
     return (
@@ -25,20 +26,20 @@ const About = () => {
                     <div className='cell portfolio-meta small-6 medium-2 large-3'>
                         <h6>Skills</h6>
                         <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Sass</li>
-                            <li>JavaScript</li>
-                            <li>JQuery</li>
-                            <li>MongoDB</li>
-                            <li>Express</li>
-                            <li>Angular</li>
-                            <li>React</li>
-                            <li>Node.js</li>
-                            <li>Python</li>
-                            <li>Django</li>
-                            <li>MySQL</li>
-                            <li>SQLite</li>
+                            <li className="primary label">HTML</li>
+                            <li className="primary label">CSS</li>
+                            <li className="primary label">Sass</li>
+                            <li className="primary label">JavaScript</li>
+                            <li className="primary label">JQuery</li>
+                            <li className="primary label">MongoDB</li>
+                            <li className="primary label">Express</li>
+                            <li className="primary label">Angular</li>
+                            <li className="primary label">React</li>
+                            <li className="primary label">Node.js</li>
+                            <li className="primary label">Python</li>
+                            <li className="primary label">Django</li>
+                            <li className="primary label">MySQL</li>
+                            <li className="primary label">SQLite</li>
                         </ul>
                         <h6>Contact Info</h6>
                         <ul>

@@ -19,12 +19,8 @@ export default class ProjectContainer extends Component {
         return header
     }
 
-    componentWillMount() {
+    UNSAFE_componentWillMount() {
         document.addEventListener('click', this.handleClick)
-    }
-    
-    componentWillUnmount() {
-        document.removeEventListener('click', this.handleClick)
     }
 
     handleClick = e => {

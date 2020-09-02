@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Data from '../Data.json';
 import { AwesomeButton, AwesomeButtonSocial } from "react-awesome-button";
+import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
 
 const ProjectDetail = ({ match }) => {
 
@@ -12,8 +13,26 @@ const ProjectDetail = ({ match }) => {
                 live_link, 
                 github_link, 
                 image_urls  } ] = Data.projects.filter( element => element.id === parseInt(id));
-                
-    const text = live_link.includes('youtu.be') ? "Video" : "Live Demo";
+
+    const linkButtonType = live_link.includes('youtu.be') 
+                        ? ( <AwesomeButtonSocial
+                            
+                            type="youtube"
+                            size="large"
+                            href={live_link}
+                            target="_blank"
+                            style={{ width:"100%", marginBottom:"5px" }}
+                            >
+                            Video
+                        </AwesomeButtonSocial>)
+                        : (<AwesomeButton
+                            type="primary"
+                            href={live_link}
+                            target="_blank"
+                            style={{ width:"100%", marginBottom:"5px" }}
+                            >
+                            Live Demo
+                        </AwesomeButton>);
     return (
         <div className='off-canvas-content'>
             <nav className='grid-container portfolio-breadcrumb'>
@@ -32,14 +51,7 @@ const ProjectDetail = ({ match }) => {
                                 <li key={ index }>{ tech }</li>
                             )) }
                         </ul>
-                        <AwesomeButton
-                            type="link"
-                            href={live_link}
-                            target="_blank"
-                            style={{width:"100%", marginBottom:"5px"}}
-                            >
-                            {text}
-                        </AwesomeButton>
+                        { linkButtonType }
                         <AwesomeButtonSocial
                             type="github"
                             size="large"
