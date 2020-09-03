@@ -8,7 +8,7 @@
             "live_link": "https://react-school-database.herokuapp.com/",
             "github_link": "https://github.com/Stevesbong/React-School-Database",
             "image_thumbnail_urls": "img/react-school-database_thumbnail.png",
-            "image_urls": ["img/portfolio1.png", "img/portfolio2.png", "img/portfolio3.png", "img/portfolio4.png", "img/portfolio5.png"]
+            "image_urls": ["../img/react-school-database1.png", "../img/react-school-database2.png", "../img/react-school-database3.png", "../img/react-school-database4.png", "../img/react-school-database5.png"]
         },
         {
             "id": 2,
@@ -18,7 +18,7 @@
             "live_link": "https://stevesbong.github.io/react-breakingbad-api",
             "github_link": "https://github.com/Stevesbong/react-breakingbad-api",
             "image_thumbnail_urls": "img/breakingbad_thumbnail.png",
-            "image_urls": ["../static/img/portfolio1.png", "../static/img/portfolio2.png", "../static/img/portfolio3.png", "../static/img/portfolio4.png", "../static/img/portfolio5.png"]
+            "image_urls": ["../img/breakingbad1.png", "../img/breakingbad2.png"]
         },
         {
             "id": 3,
@@ -38,7 +38,7 @@
             "live_link": "https://youtu.be/GsZIyx6hrno",
             "github_link": "https://github.com/Stevesbong/Amare-Project",
             "image_thumbnail_urls": "img/Amare_thumbnail.png",
-            "image_urls": ["../static/img/E-commerce1.png", "../static/img/E-commerce2.png", "../static/img/E-commerce3.png", "../static/img/E-commerce4.png", "../static/img/E-commerce5.png"]
+            "image_urls": []
         },
         {
             "id": 5,
@@ -48,7 +48,7 @@
             "live_link": "https://stevesbong.github.io/OOP-Phrase-game/",
             "github_link": "https://github.com/Stevesbong/OOP-Phrase-game",
             "image_thumbnail_urls": "img/wheelofsuccess_thumbnail.png",
-            "image_urls": ["../static/img/OOP-Phrase-game1.png", "../static/img/OOP-Phrase-game2.png", "../static/img/OOP-Phrase-game3.png"]
+            "image_urls": ["../img/OOP-Phrase-game1.png", "../img/OOP-Phrase-game2.png", "../img/OOP-Phrase-game3.png"]
         },
         {
             "id": 6,
@@ -58,7 +58,7 @@
             "live_link": "https://stevesbong.github.io/Random-Quote-Generator/",
             "github_link": "https://github.com/Stevesbong/Random-Quote-Generator",
             "image_thumbnail_urls": "img/randomQuoteGenerator-thumbnail.png",
-            "image_urls": ["../static/img/randomQuoteGenerator1.png", "../static/img/randomQuoteGenerator2.png", "../static/img/randomQuoteGenerator3.png", "../static/img/randomQuoteGenerator4.png"]
+            "image_urls": ["../img/randomQuoteGenerator1.png", "../img/randomQuoteGenerator2.png", "../img/randomQuoteGenerator3.png", "../img/randomQuoteGenerator4.png"]
         },
         {
             "id": 7,
@@ -68,7 +68,7 @@
             "live_link": "https://stevesbong.github.io/EmployeeDashboard/",
             "github_link": "https://github.com/Stevesbong/EmployeeDashboard/",
             "image_thumbnail_urls": "img/EmployeeDashboard-thumbnail.png",
-            "image_urls": ["../static/img/EmployeeDashboard1.png", "../static/img/EmployeeDashboard2.png", "../static/img/EmployeeDashboard3.png", "../static/img/EmployeeDashboard4.png"]
+            "image_urls": ["../img/EmployeeDashboard1.png", "../img/EmployeeDashboard2.png", "../img/EmployeeDashboard3.png", "../img/EmployeeDashboard4.png"]
         },
         {
             "id": 8,
@@ -78,17 +78,17 @@
             "live_link": "https://stevesbong.github.io/List-Employee-Pagination-and-Filtering",
             "github_link": "https://github.com/Stevesbong/List-Employee-Pagination-and-Filtering",
             "image_thumbnail_urls": "img/list-pagination_thumbnail.png",
-            "image_urls": ["../static/img/randomQuoteGenerator1.png", "../static/img/randomQuoteGenerator2.png", "../static/img/randomQuoteGenerator3.png", "../static/img/randomQuoteGenerator4.png"]
+            "image_urls": ["../img/list-pagination1.png", "../img/list-pagination2.png", "../img/list-pagination3.png" ]
         },
         {
             "id": 9,
             "project_name": "Photo Gallery",
             "description": "Random 12 images photo gallery. Click the images to see a bigger picture and detail about the image.",
             "technologies": [ "HTML", "CSS", "Sass", "JavaScript", "JQuery(lightbox)" ],
-            "live_link": "https://github.com/Stevesbong/photoGalleryProject",
-            "github_link": "https://stevesbong.github.io/photoGalleryProject",
+            "live_link": "https://stevesbong.github.io/photoGalleryProject/",
+            "github_link": "https://github.com/Stevesbong/photoGalleryProject",
             "image_thumbnail_urls": "img/photogallery_thumbnail.png",
-            "image_urls": ["../static/img/randomQuoteGenerator1.png", "../static/img/randomQuoteGenerator2.png", "../static/img/randomQuoteGenerator3.png", "../static/img/randomQuoteGenerator4.png"]
+            "image_urls": ["../img/photogallery1.png", "../img/photogallery2.png" ]
         }
     ]
 }

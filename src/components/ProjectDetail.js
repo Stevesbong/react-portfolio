@@ -13,6 +13,14 @@ const ProjectDetail = ({ match }) => {
                 live_link, 
                 github_link, 
                 image_urls  } ] = Data.projects.filter( element => element.id === parseInt(id));
+    const projectImages = image_urls.length ? ( image_urls.map( ( img, index ) => (
+        <img className='image' 
+            key={ index } 
+            src={ img } 
+            style={ { width: "1200px", height: "550px" } } 
+            alt={ project_name } 
+        />
+    )) ) : ( <p className='lead text-center'>No Images.</p> )
 
     const linkButtonType = live_link.includes('youtu.be') 
                         ? ( <AwesomeButtonSocial
@@ -63,14 +71,7 @@ const ProjectDetail = ({ match }) => {
                         </AwesomeButtonSocial>
                     </div>
                 </div>
-                { image_urls.map( ( img, index ) => (
-                    <img className='image' 
-                        key={ index } 
-                        src={ img } 
-                        style={ { width: "1200px", height: "550px" } } 
-                        alt={ project_name } 
-                    />
-                ))}
+                {projectImages}
             </article>
         </div>
     )
