@@ -27,17 +27,17 @@ const ProjectDetail = ({ match }) => {
                             
                             type="youtube"
                             size="large"
-                            href={live_link}
+                            href={ live_link }
                             target="_blank"
-                            style={{ width:"100%", marginBottom:"5px" }}
+                            style={ { width:"100%", marginBottom:"5px" } }
                             >
                             Video
                         </AwesomeButtonSocial>)
                         : (<AwesomeButton
                             type="primary"
-                            href={live_link}
+                            href={ live_link }
                             target="_blank"
-                            style={{ width:"100%", marginBottom:"5px" }}
+                            style={ { width:"100%", marginBottom:"5px" } }
                             >
                             Live Demo
                         </AwesomeButton>);
@@ -54,24 +54,27 @@ const ProjectDetail = ({ match }) => {
                     </div>
                     <div className='cell portfolio-meta small-6 medium-2 large-3'>
                         <h6>Technologies</h6>
-                        <ul>
+                        <ul className="project-skills">
                             { technologies.map( ( tech, index ) => (
-                                <li key={ index }>{ tech }</li>
+                                <li className="primary label" key={ index }>{ tech }</li>
                             )) }
                         </ul>
                         { linkButtonType }
                         <AwesomeButtonSocial
                             type="github"
                             size="large"
-                            href={github_link}
+                            href={ github_link }
                             target="_blank"
-                            style={{width:"100%", marginBottom:"5px"}}
+                            style={ { width:"100%", marginBottom:"5px" } }
                             >
                             Github
                         </AwesomeButtonSocial>
                     </div>
                 </div>
-                {projectImages}
+                { projectImages }
+                <nav className='grid-container portfolio-breadcrumb'>
+                    <Link to='/'> ← Back</Link>
+                </nav>
             </article>
         </div>
     )

@@ -16,10 +16,10 @@ const About = () => {
                         <p className='lead text-light'>Full Stack Web Developer</p>
                         <div className='portfolio-bio'>
                             <p>
-                                | Hello, My name is Steve, and I'm a Full-stack Web Developer proficient in HTML, CSS, JavaScript, and MEAN stacks.
-                                | I became an immigrant family after finishing mandatory military service for South Korea. I'm consistently trying to take additional responsibilities and learn new things.
-                                | Please take a moment to browse my work, skills, and professional experience. It’s my firm belief that a good challenge offers an opportunity to develop and improve, which is why I make a point of seeking out new ones in the professional realm as well as in my personal life. 
-                                | Contact me directly to learn more. Thank you.
+                                Hello, My name is Steve, and I'm a Full-stack Web Developer proficient in HTML, CSS, JavaScript, and MEAN stacks.
+                                I became an immigrant family after finishing mandatory military service for South Korea. I'm consistently trying to take additional responsibilities and learn new things.
+                                Please take a moment to browse my work, skills, and professional experience. It’s my firm belief that a good challenge offers an opportunity to develop and improve, which is why I make a point of seeking out new ones in the professional realm as well as in my personal life. 
+                                Contact me directly to learn more. Thank you.
                             </p>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const About = () => {
                             size="large"
                             href="https://www.linkedin.com/in/stevespark"
                             target="_blank"
-                            style={{width:"100%", marginBottom:"5px"}}
+                            style={ { width:"100%", marginBottom:"5px" } }
                             >
                             LinkedIn
                         </AwesomeButtonSocial>
@@ -60,7 +60,7 @@ const About = () => {
                             size="large"
                             href="https://github.com/Stevesbong"
                             target="_blank"
-                            style={{width:"100%", marginBottom:"5px"}}
+                            style={ { width:"100%", marginBottom:"5px" } }
                             >
                             Github
                         </AwesomeButtonSocial>
@@ -71,4 +71,4 @@ const About = () => {
     )
 }
 
-export default About
+export default About;

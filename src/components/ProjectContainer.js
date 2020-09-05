@@ -34,7 +34,7 @@ export default class ProjectContainer extends Component {
     render() {
         const { data } = this.state;
         return (
-            <div className={ 'off-canvas-content' + this.openHeader() } data-off-canvas-content='' ref={node => this.node = node}>
+            <div className={ 'off-canvas-content' + this.openHeader() } data-off-canvas-content='' ref={ node => this.node = node }>
                 <div className='title-bar hide-for-large'>
                     <div className='title-bar-left'>
                         <button className='menu-icon' type='button' onClick={ this.toggleMenu }></button>
@@ -54,7 +54,7 @@ export default class ProjectContainer extends Component {
                 <article className='grid-container portfolio-index'>
                     <div className='grid-x grid-margin-x small-up-2 medium-up-2 large-up-3'>
                         { data.projects.map( ( project, index ) => 
-                            <Project project={project} key={index} />
+                            <Project project={ project } key={ index } />
                         ) }
                     </div>
                 </article>

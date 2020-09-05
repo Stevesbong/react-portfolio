@@ -140,6 +140,9 @@ a:hover{
 .portfolio-meta{
   padding-left: 20px;
 }
+  .project-skills {
+    margin-bottom: 4em;
+  }
 
   .portfolio-meta .button{
     margin-bottom: 5px;

@@ -2,14 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../profile.jpg';
 
-const Header = ({toggle}) => {
+const Header = ({ toggle }) => {
     
         const show = ( toggle ) ? ' is-transition-push is-closed' : ' is-transition-push is-open'
         const visibility = ( toggle ) ? '' : ' is-visible is-closable'
         return (
             <>
                 <div className={ 'off-canvas position-left reveal-for-large portfolio-me' + show } id='my-info' data-off-canvas='sfpqnt-off-canvas' aria-hidden={toggle}>
-                    <div className='grid-y grid-padding-x' style={{ height:'100%' }}>
+                    <div className='grid-y grid-padding-x' style={ { height:'100%' } }>
                         <br />
                         <div className='cell shrink'>
                             <img className='thumbnail' src={ logo } alt='' />
