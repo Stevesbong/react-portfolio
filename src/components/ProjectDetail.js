@@ -56,7 +56,13 @@ const ProjectDetail = ({ match }) => {
                         <h6>Technologies</h6>
                         <ul className="project-skills">
                             { technologies.map( ( tech, index ) => (
-                                <li className="primary label" key={ index }>{ tech }</li>
+                                <AwesomeButton
+                                    type="secondary"
+                                    style={ { margin:"2px" } }
+                                    key={ index }
+                                    >
+                                    { tech }
+                                </AwesomeButton>
                             )) }
                         </ul>
                         { linkButtonType }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { AwesomeButtonSocial } from "react-awesome-button";
+import { AwesomeButton, AwesomeButtonSocial } from "react-awesome-button";
 import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
 
 const About = () => {
@@ -26,20 +26,90 @@ const About = () => {
                     <div className='cell portfolio-meta small-6 medium-2 large-3'>
                         <h6>Skills</h6>
                         <ul>
-                            <li className="primary label">HTML</li>
-                            <li className="primary label">CSS</li>
-                            <li className="primary label">Sass</li>
-                            <li className="primary label">JavaScript</li>
-                            <li className="primary label">JQuery</li>
-                            <li className="primary label">MongoDB</li>
-                            <li className="primary label">Express</li>
-                            <li className="primary label">Angular</li>
-                            <li className="primary label">React</li>
-                            <li className="primary label">Node.js</li>
-                            <li className="primary label">Python</li>
-                            <li className="primary label">Django</li>
-                            <li className="primary label">MySQL</li>
-                            <li className="primary label">SQLite</li>
+                            <AwesomeButton
+                                type="secondary"
+                                style={ { margin:"2px" } }
+                                >
+                                HTML
+                            </AwesomeButton>
+                            <AwesomeButton
+                                type="secondary"
+                                style={ { margin:"2px" } }
+                                >
+                                CSS
+                            </AwesomeButton>
+                            <AwesomeButton
+                                type="secondary"
+                                style={ { margin:"2px" } }
+                                >
+                                SASS
+                            </AwesomeButton>
+                            <AwesomeButton
+                                type="secondary"
+                                style={ { margin:"2px" } }
+                                >
+                                JavaScript
+                            </AwesomeButton>
+                            <AwesomeButton
+                                type="secondary"
+                                style={ { margin:"2px" } }
+                                >
+                                JQuery
+                            </AwesomeButton>
+                            <AwesomeButton
+                                type="secondary"
+                                style={ { margin:"2px" } }
+                                >
+                                MongoDB
+                            </AwesomeButton>
+                            <AwesomeButton
+                                type="secondary"
+                                style={ { margin:"2px" } }
+                                >
+                                Express
+                            </AwesomeButton>
+                            <AwesomeButton
+                                type="secondary"
+                                style={ { margin:"2px" } }
+                                >
+                                Angular
+                            </AwesomeButton>
+                            <AwesomeButton
+                                type="secondary"
+                                style={ { margin:"2px" } }
+                                >
+                                React
+                            </AwesomeButton>
+                            <AwesomeButton
+                                type="secondary"
+                                style={ { margin:"2px" } }
+                                >
+                                Node.js
+                            </AwesomeButton>
+                            <AwesomeButton
+                                type="secondary"
+                                style={ { margin:"2px" } }
+                                >
+                                Python
+                            </AwesomeButton>
+                            <AwesomeButton
+                                type="secondary"
+                                style={ { margin:"2px" } }
+                                >
+                                Django
+                            </AwesomeButton>
+                            <AwesomeButton
+                                type="secondary"
+                                style={ { margin:"2px" } }
+                                >
+                                MySQL
+                            </AwesomeButton>
+                            <AwesomeButton
+                                type="secondary"
+                                style={ { margin:"2px" } }
+                                >
+                                SQLite
+                            </AwesomeButton>
                         </ul>
                         <h6>Contact Info</h6>
                         <ul>
