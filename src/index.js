@@ -4,8 +4,11 @@ import App from './App';
 import './css/global.css';
 import './css/foundation.css';
 import './css/style.css';
+import {BrowserRouter as Router } from 'react-router-dom'
 
 ReactDOM.render(
-    <App />,
+    <Router>
+      <App />
+    </Router>,
   document.getElementById('root')
 );
