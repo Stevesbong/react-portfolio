@@ -24,13 +24,13 @@ const About = () => {
         'React.js', 'Node.js', 'Python', 'Django', 'MySQL', 'SQLite'
     ]
     return (
-        <AnimatePresence>
+        <AnimatePresence exitBeforeEnter>
             <motion.div className='off-canvas-content'
                 variants={containerVariants}
                 initial="hidden"
                 animate="visible"
                 exit={
-                    {backgroundColor: 'red'}
+                    {x:'100vw', transition: { duration: 3}}
                 }
             >
                 <nav className='grid-container portfolio-breadcrumb'>
@@ -53,8 +53,8 @@ const About = () => {
                         <div className='cell portfolio-meta small-6 medium-2 large-3'>
                             <h6>Skills</h6>
                             <ul>
-                                { techSkills.map( tech => (
-                                    <motion.div
+                                { techSkills.map( ( tech, index ) => (
+                                    <motion.div key= { index }
                                         whileHover={{ 
                                             scale: 1.02,
                                             textShadow: '0px 0px 8px rgb(0, 0, 0)',

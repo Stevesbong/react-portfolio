@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Route, Switch, useLocation } from 'react-router-dom';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import ProjectContainer from './components/ProjectContainer';
 import Header from './components/Header';
 import About from './components/About';
@@ -10,10 +10,9 @@ import { AnimatePresence } from 'framer-motion';
 function App() {
   
   const [ toggle, setToggle ] = useState(true);
-  const location = useLocation();
 
   return (
-    <>
+    <BrowserRouter>
 
       <div className="App">
 
@@ -28,7 +27,7 @@ function App() {
 
       </div>
 
-    </>
+    </BrowserRouter>
   );
 }
 

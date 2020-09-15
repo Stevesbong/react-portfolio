@@ -6,7 +6,7 @@ const imgVariants = {
         scale: 1
     },
     frame: {
-        scale: [ 0.8, 1.4, 1 ],
+        scale: [ 0.8, 1.6, 1 ],
         rotate: [ 0, 45, -45, 0 ],
         transition: {
             duration: 0.3

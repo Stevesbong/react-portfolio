@@ -77,8 +77,8 @@ const ProjectDetail = ({ match }) => {
                             <h6>Technologies</h6>
                             <ul className="project-skills">
                                 { technologies.map( ( tech, index ) => (
-                                    <motion.div
-                                        
+                                    <motion.div 
+                                        key={ index }
                                         whileHover={{ 
                                             scale: 1.02,
                                             textShadow: '0px 0px 8px rgb(0, 0, 0)' 
@@ -87,7 +87,6 @@ const ProjectDetail = ({ match }) => {
                                         <AwesomeButton
                                             type="secondary"
                                             style={ { width:'100%', margin:"2px" } }
-                                            key={ index }
                                             >
                                             { tech }
                                         </AwesomeButton>
