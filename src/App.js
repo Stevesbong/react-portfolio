@@ -4,7 +4,7 @@ import ProjectContainer from './components/ProjectContainer';
 import Header from './components/Header';
 import About from './components/About';
 import ProjectDetail from './components/ProjectDetail';
-import { AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 
 function App() {
@@ -14,7 +14,9 @@ function App() {
   return (
     <BrowserRouter>
 
-      <div className="App">
+      <motion.div className="App"
+        perspective={800}
+      >
 
         <Header toggle={toggle} />
           <Switch>
@@ -25,7 +27,7 @@ function App() {
             <Route exact path='/project/:id' component={ProjectDetail} />
           </Switch>
 
-      </div>
+      </motion.div>
 
     </BrowserRouter>
   );
