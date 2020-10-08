@@ -5,6 +5,8 @@ import { motion } from 'framer-motion';
 import { AwesomeButton, AwesomeButtonSocial } from "react-awesome-button";
 import "react-awesome-button/src/styles/styles.scss";
 
+
+// framer motion Variants for container div
 const containerVariants = {
     hidden: {
         opacity: 0,
@@ -17,6 +19,7 @@ const containerVariants = {
     }
 }
 
+// framer motion Variants for tech button
 const techVariants = {
     hidden: {
         opacity: 0,
@@ -32,12 +35,16 @@ const techVariants = {
 const ProjectDetail = ({ match }) => {
 
     const { id } = match.params;
+
+    // get one project
     const [ {   project_name, 
                 description, 
                 technologies, 
                 live_link, 
                 github_link, 
                 image_urls  } ] = Data.projects.filter( element => element.id === parseInt(id));
+    
+    // use ternary operator loop through images in the array and display it. If there's no images in the array display No Images P Tag.
     const projectImages = image_urls.length ? ( image_urls.map( ( img, index ) => (
         <img className='image' 
             key={ index } 
@@ -47,6 +54,7 @@ const ProjectDetail = ({ match }) => {
         />
     )) ) : ( <p className='lead text-center'>No Images.</p> )
 
+    // use ternary operator to display button either youtube video or live demo.
     const linkButtonType = live_link.includes('youtu.be') 
                         ? ( <AwesomeButtonSocial
                             

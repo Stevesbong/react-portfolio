@@ -3,6 +3,7 @@ import Data from '../Data.json';
 import Project from './Project';
 import { motion } from 'framer-motion';
 
+// framer motion Variants for container div
 const containerVariants = {
     hidden: {
         opacity: 0,
@@ -14,6 +15,8 @@ const containerVariants = {
         transition: { duration: .5, ease: 'easeInOut' }
     }
 }
+
+// framer motion Variants for title
 const titleVariants = {
     hidden: {
         x: '100vw'
@@ -30,6 +33,8 @@ export default class ProjectContainer extends Component {
         data: Data
     }
 
+
+    // below four functions for mobile device when click the hamburger menu
     toggleMenu = () => {
         const { toggle } = this.props;
         toggle(false)
@@ -37,7 +42,7 @@ export default class ProjectContainer extends Component {
 
     openHeader = () => {
         const { left } = this.props;
-        const header = (left) ? '' : ' is-open-left has-transition-push has-position-left'
+        const header = (left) ? ' is-open-left has-transition-push has-position-left' : ''
         return header
     }
 
