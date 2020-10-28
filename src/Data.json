@@ -4,6 +4,16 @@
             "id": 1,
             "project_name": "School Database",
             "description": "An React Full-stack project application used to create school courses.",
+            "technologies": [ "CSS", "JavaScript", "JSX", "React", "Redux", "Firebase", "Firestore", "Cloudfunction" ],
+            "live_link": "https://project-planer-42ca1.web.app/",
+            "github_link": "https://github.com/Stevesbong/Travel-Planer",
+            "image_thumbnail_urls": "img/travel-planner-thumbnail.png",
+            "image_urls": ["../img/travel-planner3.png", "../img/travel-planner.png", "../img/travel-planner1.png", "../img/travel-planner2.png", "../img/travel-planner4.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "School Database",
+            "description": "An React Full-stack project application used to create school courses.",
             "technologies": [ "CSS", "JavaScript", "JSX", "React", "Context API", "SQLite" ],
             "live_link": "https://react-school-database.herokuapp.com/",
             "github_link": "https://github.com/Stevesbong/React-School-Database",
@@ -11,7 +21,7 @@
             "image_urls": ["../img/react-school-database1.png", "../img/react-school-database2.png", "../img/react-school-database3.png", "../img/react-school-database4.png", "../img/react-school-database5.png"]
         },
         {
-            "id": 2,
+            "id": 3,
             "project_name": "Breaking Bad API cast",
             "description": "React project that uses the Breaking Bad API to show all the characters and filter character from displayed characters.",
             "technologies": [ "CSS", "JavaScript", "JSX", "React", "React Hooks" ],
@@ -21,7 +31,7 @@
             "image_urls": ["../img/breakingbad1.png", "../img/breakingbad2.png"]
         },
         {
-            "id": 3,
+            "id": 4,
             "project_name": "E-commerce Website",
             "description": "First Full-Stack e-commerce app that customers can buy Electronic parts and home decors. Admin is able to add and modify products.",
             "technologies": [ "HTML", "CSS", "JavaScript", "Bootstrap", "Angular", "Python", "Django" ],
@@ -31,7 +41,7 @@
             "image_urls": ["../img/E-commerce1.png", "../img/E-commerce2.png", "../img/E-commerce3.png", "../img/E-commerce4.png", "../img/E-commerce5.png"]
         },
         {
-            "id": 4,
+            "id": 5,
             "project_name": "Amare",
             "description": "This project concept is public services people who need help from different situations.",
             "technologies": [ "HTML", "CSS", "Bootstrap", "Python", "Django" ],
@@ -41,7 +51,7 @@
             "image_urls": []
         },
         {
-            "id": 5,
+            "id": 6,
             "project_name": "Wheel Of Success",
             "description": "Guess the word game app that generates random phrase. A player guess each letter from the screen keyboard.",
             "technologies": [ "HTML", "CSS", "JavaScript" ],
@@ -51,7 +61,7 @@
             "image_urls": ["../img/OOP-Phrase-game1.png", "../img/OOP-Phrase-game2.png", "../img/OOP-Phrase-game3.png"]
         },
         {
-            "id": 6,
+            "id": 7,
             "project_name": "Random Quote Generator",
             "description": "Display A random Quote on the page using hard code quotes.",
             "technologies": [ "HTML", "CSS", "JavaScript" ],
@@ -61,7 +71,7 @@
             "image_urls": ["../img/randomQuoteGenerator1.png", "../img/randomQuoteGenerator2.png", "../img/randomQuoteGenerator3.png", "../img/randomQuoteGenerator4.png"]
         },
         {
-            "id": 7,
+            "id": 8,
             "project_name": "Employee Dashboard",
             "description": "Display Employee's Dashboard that shows what employee have done in the week, shows that how actively work, and communicate with others.",
             "technologies": [ "HTML", "CSS", "Sass", "JavaScript", "Chart.js" ],
@@ -71,7 +81,7 @@
             "image_urls": ["../img/EmployeeDashboard1.png", "../img/EmployeeDashboard2.png", "../img/EmployeeDashboard3.png", "../img/EmployeeDashboard4.png"]
         },
         {
-            "id": 8,
+            "id": 9,
             "project_name": "Pagination Student List",
             "description": "Display a list of 54 students into 5 pages. Each page has 10 students.",
             "technologies": [ "HTML", "CSS", "JavaScript" ],
@@ -81,7 +91,7 @@
             "image_urls": ["../img/list-pagination1.png", "../img/list-pagination2.png", "../img/list-pagination3.png" ]
         },
         {
-            "id": 9,
+            "id": 10,
             "project_name": "Photo Gallery",
             "description": "Random 12 images photo gallery. Click the images to see a bigger picture and detail about the image.",
             "technologies": [ "HTML", "CSS", "Sass", "JavaScript", "JQuery(lightbox)" ],
